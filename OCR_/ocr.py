@@ -6,8 +6,6 @@ from google.genai import types
 from google.genai.errors import ServerError
 
 client = genai.Client()
-
-# pehla model pehle try hoga, fail hua to agla
 MODELS = ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-3.7-flash"]
 
 PROMPT = (
@@ -60,4 +58,5 @@ def extract_ingredients(image_path):
 if __name__ == "__main__":
     result = extract_ingredients("images/lays2.jpeg")
     print(result["ingredients"])
+    print("-----------------------------------------------")
     print(result["allergen_warnings"])
