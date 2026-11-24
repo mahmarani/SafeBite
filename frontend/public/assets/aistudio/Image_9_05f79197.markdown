@@ -1,0 +1,232 @@
+---
+name: NutriLens Clinical Botanics
+colors:
+  surface: '#ecfeef'
+  surface-dim: '#cddfd0'
+  surface-bright: '#ecfeef'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#e6f8e9'
+  surface-container: '#e1f2e3'
+  surface-container-high: '#dbedde'
+  surface-container-highest: '#d5e7d8'
+  on-surface: '#101f16'
+  on-surface-variant: '#414942'
+  inverse-surface: '#25342a'
+  inverse-on-surface: '#e3f5e6'
+  outline: '#717971'
+  outline-variant: '#c0c9c0'
+  surface-tint: '#366849'
+  primary: '#2e6142'
+  on-primary: '#ffffff'
+  primary-container: '#477a59'
+  on-primary-container: '#d2ffdd'
+  inverse-primary: '#9dd3ac'
+  secondary: '#4f6352'
+  on-secondary: '#ffffff'
+  secondary-container: '#cfe6cf'
+  on-secondary-container: '#536856'
+  tertiary: '#3b5f49'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#537860'
+  on-tertiary-container: '#d5ffe1'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#b8efc7'
+  primary-fixed-dim: '#9dd3ac'
+  on-primary-fixed: '#00210f'
+  on-primary-fixed-variant: '#1c5033'
+  secondary-fixed: '#d2e8d2'
+  secondary-fixed-dim: '#b6ccb7'
+  on-secondary-fixed: '#0d1f12'
+  on-secondary-fixed-variant: '#384b3b'
+  tertiary-fixed: '#c3eccf'
+  tertiary-fixed-dim: '#a8d0b4'
+  on-tertiary-fixed: '#002111'
+  on-tertiary-fixed-variant: '#2a4e39'
+  background: '#ecfeef'
+  on-background: '#101f16'
+  surface-variant: '#d5e7d8'
+typography:
+  display-lg:
+    fontFamily: Manrope
+    fontSize: 40px
+    fontWeight: '600'
+    lineHeight: 48px
+    letterSpacing: -0.02em
+  display-lg-mobile:
+    fontFamily: Manrope
+    fontSize: 30px
+    fontWeight: '600'
+    lineHeight: 38px
+    letterSpacing: -0.015em
+  headline-lg:
+    fontFamily: Manrope
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Manrope
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 30px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Manrope
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 26px
+    letterSpacing: -0.005em
+  title-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 26px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 22px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-lg:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+  label-sm:
+    fontFamily: Inter
+    fontSize: 10px
+    fontWeight: '600'
+    lineHeight: 12px
+    letterSpacing: 0.06em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 2rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+The design system establishes a clinical yet humanistic visual baseline for dietary insight and ingredient intelligence. It avoids both the clinical chill of legacy laboratory tools and the ephemeral, neon-infused tropes of generative consumer AI. The visual character balances scientific precision with organic warmth: structured data tables, transparent nutritional disclosures, and tactile metric containers coexisting within an airy, light-drenched canvas.
+
+### Visual Principles
+- **Clarity over Abstraction:** Health data requires immediate cognitive parsing. Scores, chemical nomenclature, allergen warnings, and macro splits are expressed through rigorous hierarchy, clear typography, and unambiguous color semantics.
+- **Organic Hygiene:** Surfaces are crisp, light, and pure (#F8FAF7 and #FFFFFF), punctuated by grounding vegetal greens (#477A59, #294D38) that invoke nature, wellness, and botanical science without leaning into chaotic organic textures.
+- **Restrained Elevation:** Visual weight is achieved via hairline structural borders and minimal, diffused contact shadows rather than high-elevation drops or heavy skeuomorphic shading.
+- **Semantic Certainty:** Warning, danger, and success tokens are strictly reserved for physiological state, nutritional thresholds, and compliance flags.
+
+## Colors
+
+The palette is rooted in botanical tones, supported by precise functional shades engineered for continuous daylight reading and data density.
+
+### Key Palettes & Roles
+- **Primary (`#477A59` - Deep Sage):** Primary action items, interactive active states, high-level verification indicators, and confirmed dietary fits.
+- **Secondary (`#A8BEA9` - Muted Sage):** Non-critical accents, progress bar tracks, secondary chip fills, and subtle focus rings.
+- **Tertiary (`#294D38` - Forest Pine):** Display headings, high-contrast labels, key metrics, and dominant data emphasis.
+- **Neutral Primary (`#243329` - Deep Moss Char):** High-contrast body typography, table headers, and structural vector icons.
+- **Neutral Secondary (`#77837A` - Slate Sage):** Metadata, footnotes, disabled states, and inactive tab typography.
+- **Canvas & Containers:** Base canvas rests on `#F8FAF7`, card surfaces on `#FFFFFF`, and grouped analysis pods or inset trays on `#EDF4ED`.
+- **System Borders:** Fixed at `#E7ECE6` for crisp 1px division without visual clutter.
+- **Functional Semantics:**
+  - Success: `#4D9565` (Safe ingredients, optimal nutrient levels)
+  - Warning: `#D69B43` (Potential allergens, trace sensitivities, moderate daily intake limits)
+  - Danger: `#D96B65` (Contraindicated substances, severe allergens, flagged chemical additives)
+
+## Typography
+
+Typography provides an assertive architectural foundation. Manrope gives headlines a structured, geometric authority with soft terminals that avoid harsh industrial edges. Plus Jakarta Sans handles running body text and dietary narratives, providing optimal legibility at micro sizes. Inter acts as the data-engine face for dense numeric figures, chemical weights, percentages, nutrient tables, and micro tags.
+
+### Implementation Rules
+- Headings maintain medium-to-semibold weights (`500` to `600`) to preserve elegance without feeling aggressive or over-inked.
+- Uppercase styling is strictly reserved for `label-sm` and `label-md` when applied to acronyms, nutritional abbreviations (e.g., `DV%`, `KCAL`, `PPM`), and status tags.
+- Tabular figures (`tnum`) must be enabled on all numerical representations in analysis panels, score readouts, and ingredient composition listings.
+
+## Layout & Spacing
+
+The layout philosophy leverages an adaptive fluid grid with strict content max-widths to retain clinical scannability and avoid line-length fatigue in dense data views.
+
+### Grid Rhythm & Breakpoints
+- **Desktop (1024px and above):** 12-column layout, max-width 1280px, 24px (`1.5rem`) gutters, 32px (`2rem`) page margins. Split panels allow parallel presentation of product imagery/overview alongside detailed nutritional breakdown charts.
+- **Tablet (768px - 1023px):** 8-column layout, 20px gutters, 24px page margins. Dual-card columns wrap down to singular stacked flows where complex tables are present.
+- **Mobile (Below 768px):** 4-column layout, 16px (`1rem`) gutters, 16px (`1rem`) screen margins. Side-by-side metric tiles collapse into 2x2 grids or horizontally swipable rail chips.
+
+### Spacing Philosophy
+Components obey a strict 4px base increment. Padding inside actionable components (cards, rows, alerts) stays tight and disciplined (`space-md` to `space-lg`), keeping ingredient registries condensed and scannable without horizontal pagination or excessive vertical scrolling.
+
+## Elevation & Depth
+
+Visual hierarchy is communicated through structural layering, 1px low-contrast borders, and subtle, ambient shadows. Heavy blurs and colored drop shadows are prohibited.
+
+### Surface Tiers
+- **Canvas Base (`#F8FAF7`):** The ground floor for application-level shell navigation and multi-card viewports.
+- **Card Surface (`#FFFFFF`):** High-priority focus areas. Elevated solely via a hairline outline (`1px solid #E7ECE6`) paired with a micro contact shadow: `box-shadow: 0 1px 2px 0 rgba(36, 51, 41, 0.04), 0 1px 3px 0 rgba(36, 51, 41, 0.02)`.
+- **Inset Surface (`#EDF4ED`):** Used inside white cards to encapsulate secondary data clusters, such as allergen disclosures, ingredient sub-groups, and calculation methodology notes. No shadow is applied; depth is purely tonal.
+- **Active Overlay / Dropdowns / Popovers (`#FFFFFF`):** Elevated for modal review sheets and auto-complete product searches: `box-shadow: 0 4px 6px -1px rgba(36, 51, 41, 0.06), 0 2px 4px -2px rgba(36, 51, 41, 0.04)`.
+
+## Shapes
+
+The design system employs a consistent curved geometry (`10px` to `14px`) that balances modern software ergonomics with an accessible health-tech sensibility. 
+
+- **Cards & Data Modules:** Standardized at `12px` border radius (`rounded-lg`), delivering structural definition without feeling bulbous.
+- **Action Buttons & Form Inputs:** Set to `8px` (`rounded-md`) to ensure clear clickable boundaries and crisp form alignment.
+- **Badges, Tags, and Pill Badges:** Set to `9999px` (Full Pill) for instant recognition as semantic status chips, allergen warnings, and macro flags.
+- **Micro UI (Checkboxes, Toggles):** Form elements use subtle `4px` radiuses to preserve utilitarian control clarity.
+
+## Components
+
+### Buttons & Trigger Elements
+- **Primary:** Solid `#477A59` fill, `#FFFFFF` text, 1px border of `#477A59`. Hover transitions to `#294D38`. Padding: 10px 18px (`body-md`, semibold).
+- **Secondary / Subtle:** `#EDF4ED` fill, `#294D38` text, 1px border in `#A8BEA9` at 40% opacity. Hover transitions to solid `#E2ECE2`.
+- **Ghost:** Transparent background, `#477A59` text. Hover fills with `#EDF4ED` at 60% opacity.
+
+### Chips & Semantic Badges
+- **Ingredient & Allergen Tags:** 
+  - Standard/Safe: `#EDF4ED` background, `#294D38` text, 1px `#E7ECE6` border.
+  - Warning/Sensitivity: `#FEF7ED` background, `#D69B43` text, 1px `#FBD38D` border.
+  - Danger/Allergen Conflict: `#FEF2F2` background, `#D96B65` text, 1px `#FECACA` border.
+  - Geometry: Full pill shape, padding 4px 10px, typography `label-md`.
+
+### Cards & Grouping Containers
+- **Product Overview & Nutrition Card:** Background `#FFFFFF`, border `1px solid #E7ECE6`, radius `12px`. Internal vertical layout cleanly delineates the header, macro summary row, and expandable ingredient breakdown via hairline dividers (`#E7ECE6`).
+- **Health Score Gauge:** Circular or thick-linear bar indicator using `#477A59` for optimal tiers, transitioning through `#D69B43` to `#D96B65`. Track background is consistently `#EDF4ED`.
+
+### Input Fields & Controls
+- **Search & Filter Inputs:** Background `#FFFFFF`, 1px solid `#E7ECE6`, text `#243329`, placeholder `#77837A`. Focused state: border `#477A59` with a 2px outer ring of `#A8BEA9` at 30% opacity. Height 42px.
+- **Checkboxes & Radios:** 18px box size with 4px radius. Unselected: 1.5px border `#E7ECE6`, background `#FFFFFF`. Selected: solid `#477A59` background with a crisp white check vector.
+
+### Lists & Data Rows
+- **Ingredient Row:** Alternating or bordered rows with 12px vertical padding. Left column displays scientific and common ingredient name (`body-md` in `#243329`), accompanied by function/origin (`body-sm` in `#77837A`). Right column holds risk badge and processed level flag.
+
+### Iconography
+- Consistent 1.5px stroke width, Lucide-style outline icons. Icon sizing: 16px for inline tags and table rows, 20px for controls and navigation bars. Tinted to `#477A59` for active states, `#77837A` for default/secondary states.
