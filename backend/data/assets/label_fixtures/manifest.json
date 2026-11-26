@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "provenance": "Synthetic label images generated for SafeBite tests; no real product or person data.",
+  "fixtures": [
+    {"id":"clear_label","image":"clear_label.png","expected_ingredients":["oats","sugar","salt"],"expected_allergens":[],"expected_nutrients":{"energy_kcal":120,"sugars_g":5,"sodium_mg":150}},
+    {"id":"blurry_label","image":"blurry_label.png","expected_ingredients":["wheat flour","sugar","salt"],"expected_allergens":["wheat"],"expected_nutrients":{"energy_kcal":130,"sugars_g":6,"sodium_mg":180}},
+    {"id":"rotated_label","image":"rotated_label.png","expected_ingredients":["corn","sunflower oil","salt"],"expected_allergens":[],"expected_nutrients":{"energy_kcal":140,"sugars_g":1,"sodium_mg":220}},
+    {"id":"allergen_statement","image":"allergen_statement.png","expected_ingredients":["milk","cocoa","sugar"],"expected_allergens":["milk"],"expected_nutrients":{"energy_kcal":210,"sugars_g":18,"sodium_mg":60}},
+    {"id":"unreadable","image":"unreadable.png","expected_ingredients":[],"expected_allergens":[],"expected_nutrients":{}},
+    {"id":"glare_label","image":"glare_label.png","expected_ingredients":["rice","sugar","salt"],"expected_allergens":[],"expected_nutrients":{"energy_kcal":110,"sugars_g":3,"sodium_mg":100}},
+    {"id":"small_print_label","image":"small_print_label.png","expected_ingredients":["barley","sesame oil","sea salt"],"expected_allergens":["sesame"],"expected_nutrients":{"energy_kcal":150,"sugars_g":2,"sodium_mg":190}},
+    {"id":"exif_rotated","image":"exif_rotated.jpg","expected_ingredients":[],"expected_allergens":[],"expected_nutrients":{},"expected_preprocessed_size":[96,48]}
+  ]
+}

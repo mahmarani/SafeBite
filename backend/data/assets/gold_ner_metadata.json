@@ -1,0 +1,37 @@
+{
+  "dataset_version": "1.0.0",
+  "jsonl_path": "data/gold_ner_200.jsonl",
+  "sha256": "6157cdbf9724081de81bdcae1939a8f0a72efb5f76499804d583afdc1a223d46",
+  "total_rows": 1113,
+  "splits": {
+    "train": 853,
+    "val": 130,
+    "test": 130
+  },
+  "labels": [
+    "O",
+    "B-INGREDIENT",
+    "I-INGREDIENT",
+    "B-ADDITIVE",
+    "I-ADDITIVE",
+    "B-ALLERGEN",
+    "I-ALLERGEN",
+    "B-NUTRIENT",
+    "I-NUTRIENT",
+    "B-QUANTITY",
+    "I-QUANTITY"
+  ],
+  "label_counts": {
+    "O": 14149,
+    "B-INGREDIENT": 8484,
+    "I-INGREDIENT": 4385,
+    "B-ADDITIVE": 1949,
+    "I-ADDITIVE": 1684,
+    "B-ALLERGEN": 2171,
+    "I-ALLERGEN": 605,
+    "B-NUTRIENT": 2322,
+    "I-NUTRIENT": 1419,
+    "B-QUANTITY": 2775,
+    "I-QUANTITY": 2354
+  }
+}

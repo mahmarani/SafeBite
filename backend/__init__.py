@@ -1,0 +1,1 @@
+"""SafeBite backend application."""

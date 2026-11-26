@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+frontend/node_modules/
+frontend/dist/
+backend/data/assets/tmp_eval/
+backend/archive
+backend/data/openfoodfacts_products.csv

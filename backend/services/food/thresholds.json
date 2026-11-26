@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0.0",
+  "status": "active",
+  "jurisdiction": "United Kingdom (DHSC / Food Standards Agency)",
+  "notes": "Traffic-light criteria for solid foods per 100g. Salt cutoffs (0.3g low, 1.5g high) converted to sodium using Salt = Sodium * 2.5 (120mg low, 600mg high).",
+  "thresholds": [
+    {
+      "rule_id": "UK-FOP-2016-TOTAL-FAT",
+      "nutrient": "total_fat_g",
+      "unit": "g",
+      "basis": "per_100g",
+      "enabled": true,
+      "cutoffs": {
+        "low_max": 3.0,
+        "medium_max": 17.5,
+        "high_min": 17.5
+      },
+      "source": {
+        "title": "Guide to creating a front of pack (FoP) nutrition label for pre-packed products sold through retail outlets",
+        "url": "https://www.gov.uk/government/publications/front-of-pack-nutrition-labelling-guidance",
+        "published_or_accessed": "2016-11-08 (accessed 2026-11-25)"
+      },
+      "version": "2016-11-08"
+    },
+    {
+      "rule_id": "UK-FOP-2016-SAT-FAT",
+      "nutrient": "saturated_fat_g",
+      "unit": "g",
+      "basis": "per_100g",
+      "enabled": true,
+      "cutoffs": {
+        "low_max": 1.5,
+        "medium_max": 5.0,
+        "high_min": 5.0
+      },
+      "source": {
+        "title": "Guide to creating a front of pack (FoP) nutrition label for pre-packed products sold through retail outlets",
+        "url": "https://www.gov.uk/government/publications/front-of-pack-nutrition-labelling-guidance",
+        "published_or_accessed": "2016-11-08 (accessed 2026-11-25)"
+      },
+      "version": "2016-11-08"
+    },
+    {
+      "rule_id": "UK-FOP-2016-SUGARS",
+      "nutrient": "sugars_g",
+      "unit": "g",
+      "basis": "per_100g",
+      "enabled": true,
+      "cutoffs": {
+        "low_max": 5.0,
+        "medium_max": 22.5,
+        "high_min": 22.5
+      },
+      "source": {
+        "title": "Guide to creating a front of pack (FoP) nutrition label for pre-packed products sold through retail outlets",
+        "url": "https://www.gov.uk/government/publications/front-of-pack-nutrition-labelling-guidance",
+        "published_or_accessed": "2016-11-08 (accessed 2026-11-25)"
+      },
+      "version": "2016-11-08"
+    },
+    {
+      "rule_id": "UK-FOP-2016-SODIUM",
+      "nutrient": "sodium_mg",
+      "unit": "mg",
+      "basis": "per_100g",
+      "enabled": true,
+      "cutoffs": {
+        "low_max": 120.0,
+        "medium_max": 600.0,
+        "high_min": 600.0
+      },
+      "source": {
+        "title": "Guide to creating a front of pack (FoP) nutrition label for pre-packed products sold through retail outlets",
+        "url": "https://www.gov.uk/government/publications/front-of-pack-nutrition-labelling-guidance",
+        "published_or_accessed": "2016-11-08 (accessed 2026-11-25)"
+      },
+      "version": "2016-11-08"
+    }
+  ]
+}

@@ -1,0 +1,1031 @@
+{
+  "timestamp": "2026-11-25 11:11:35",
+  "total_fixtures": 8,
+  "readable_count": 6,
+  "unreadable_count": 2,
+  "mean_cer": 0.0307,
+  "mean_wer": 0.2292,
+  "artifacts": [
+    {
+      "id": "clear_label",
+      "image": "clear_label.png",
+      "status": "success",
+      "error": null,
+      "latency_ms": 6536.42,
+      "cer": 0.0333,
+      "wer": 0.25,
+      "blocks": [
+        {
+          "text": "Nutrition Facts",
+          "box": [
+            [
+              26.0,
+              30.0
+            ],
+            [
+              206.0,
+              30.0
+            ],
+            [
+              206.0,
+              56.0
+            ],
+            [
+              26.0,
+              56.0
+            ]
+          ],
+          "confidence": 0.7709,
+          "section": "nutrition"
+        },
+        {
+          "text": "Ingredients: oats, sugar; salt",
+          "box": [
+            [
+              23.0,
+              84.0
+            ],
+            [
+              290.0,
+              84.0
+            ],
+            [
+              290.0,
+              112.0
+            ],
+            [
+              23.0,
+              112.0
+            ]
+          ],
+          "confidence": 0.9299,
+          "section": "ingredients"
+        },
+        {
+          "text": "Calories 120 kcal",
+          "box": [
+            [
+              26.0,
+              128.0
+            ],
+            [
+              186.0,
+              128.0
+            ],
+            [
+              186.0,
+              152.0
+            ],
+            [
+              26.0,
+              152.0
+            ]
+          ],
+          "confidence": 0.8257,
+          "section": "nutrition"
+        },
+        {
+          "text": "Total sugars 5 g",
+          "box": [
+            [
+              26.0,
+              170.0
+            ],
+            [
+              176.0,
+              170.0
+            ],
+            [
+              176.0,
+              197.0
+            ],
+            [
+              26.0,
+              197.0
+            ]
+          ],
+          "confidence": 0.8266,
+          "section": "nutrition"
+        },
+        {
+          "text": "Sodium 150 mg",
+          "box": [
+            [
+              24.0,
+              212.0
+            ],
+            [
+              174.0,
+              212.0
+            ],
+            [
+              174.0,
+              240.0
+            ],
+            [
+              24.0,
+              240.0
+            ]
+          ],
+          "confidence": 0.9569,
+          "section": "nutrition"
+        }
+      ],
+      "sections": {
+        "ingredients": "Ingredients: oats, sugar; salt",
+        "allergens": "",
+        "nutrition": "Nutrition Facts Calories 120 kcal Total sugars 5 g Sodium 150 mg",
+        "other": ""
+      }
+    },
+    {
+      "id": "blurry_label",
+      "image": "blurry_label.png",
+      "status": "success",
+      "error": null,
+      "latency_ms": 4025.54,
+      "cer": null,
+      "wer": null,
+      "blocks": [
+        {
+          "text": "Nutrition Facts",
+          "box": [
+            [
+              24.0,
+              30.0
+            ],
+            [
+              208.0,
+              30.0
+            ],
+            [
+              208.0,
+              56.0
+            ],
+            [
+              24.0,
+              56.0
+            ]
+          ],
+          "confidence": 0.5757,
+          "section": "nutrition"
+        },
+        {
+          "text": "Containatneat",
+          "box": [
+            [
+              24.0,
+              127.0
+            ],
+            [
+              176.0,
+              127.0
+            ],
+            [
+              176.0,
+              152.0
+            ],
+            [
+              24.0,
+              152.0
+            ]
+          ],
+          "confidence": 0.1322,
+          "section": "nutrition"
+        },
+        {
+          "text": "Calone: 1s0uc4l",
+          "box": [
+            [
+              24.0,
+              168.0
+            ],
+            [
+              188.0,
+              168.0
+            ],
+            [
+              188.0,
+              194.0
+            ],
+            [
+              24.0,
+              194.0
+            ]
+          ],
+          "confidence": 0.1865,
+          "section": "nutrition"
+        },
+        {
+          "text": "Jotal suqan",
+          "box": [
+            [
+              24.0,
+              212.0
+            ],
+            [
+              142.0,
+              212.0
+            ],
+            [
+              142.0,
+              241.0
+            ],
+            [
+              24.0,
+              241.0
+            ]
+          ],
+          "confidence": 0.1764,
+          "section": "nutrition"
+        },
+        {
+          "text": "76 0",
+          "box": [
+            [
+              142.02202795004177,
+              208.16388105512118
+            ],
+            [
+              179.84604989415155,
+              218.05131670194947
+            ],
+            [
+              173.97797204995823,
+              242.83611894487882
+            ],
+            [
+              135.15395010584845,
+              232.94868329805053
+            ]
+          ],
+          "confidence": 0.2192,
+          "section": "nutrition"
+        },
+        {
+          "text": "Sodum 180 mg",
+          "box": [
+            [
+              24.0,
+              254.0
+            ],
+            [
+              174.0,
+              254.0
+            ],
+            [
+              174.0,
+              282.0
+            ],
+            [
+              24.0,
+              282.0
+            ]
+          ],
+          "confidence": 0.4234,
+          "section": "nutrition"
+        }
+      ],
+      "sections": {
+        "ingredients": "",
+        "allergens": "",
+        "nutrition": "Nutrition Facts Containatneat Calone: 1s0uc4l Jotal suqan 76 0 Sodum 180 mg",
+        "other": ""
+      }
+    },
+    {
+      "id": "rotated_label",
+      "image": "rotated_label.png",
+      "status": "success",
+      "error": null,
+      "latency_ms": 3518.4,
+      "cer": null,
+      "wer": null,
+      "blocks": [
+        {
+          "text": "IH",
+          "box": [
+            [
+              256.0,
+              16.0
+            ],
+            [
+              378.0,
+              16.0
+            ],
+            [
+              378.0,
+              150.0
+            ],
+            [
+              256.0,
+              150.0
+            ]
+          ],
+          "confidence": 0.1579,
+          "section": "other"
+        },
+        {
+          "text": "8",
+          "box": [
+            [
+              265.0,
+              99.0
+            ],
+            [
+              285.0,
+              99.0
+            ],
+            [
+              285.0,
+              139.0
+            ],
+            [
+              265.0,
+              139.0
+            ]
+          ],
+          "confidence": 0.7907,
+          "section": "other"
+        },
+        {
+          "text": "8",
+          "box": [
+            [
+              349.0,
+              103.0
+            ],
+            [
+              369.0,
+              103.0
+            ],
+            [
+              369.0,
+              145.0
+            ],
+            [
+              349.0,
+              145.0
+            ]
+          ],
+          "confidence": 0.2556,
+          "section": "other"
+        },
+        {
+          "text": "I",
+          "box": [
+            [
+              378.0,
+              17.0
+            ],
+            [
+              477.0,
+              17.0
+            ],
+            [
+              477.0,
+              146.0
+            ],
+            [
+              378.0,
+              146.0
+            ]
+          ],
+          "confidence": 0.4898,
+          "section": "other"
+        },
+        {
+          "text": "2",
+          "box": [
+            [
+              260.0,
+              138.0
+            ],
+            [
+              284.0,
+              138.0
+            ],
+            [
+              284.0,
+              174.0
+            ],
+            [
+              260.0,
+              174.0
+            ]
+          ],
+          "confidence": 0.3604,
+          "section": "other"
+        },
+        {
+          "text": "5",
+          "box": [
+            [
+              304.0,
+              140.0
+            ],
+            [
+              328.0,
+              140.0
+            ],
+            [
+              328.0,
+              176.0
+            ],
+            [
+              304.0,
+              176.0
+            ]
+          ],
+          "confidence": 0.2542,
+          "section": "other"
+        },
+        {
+          "text": "2",
+          "box": [
+            [
+              349.0,
+              145.0
+            ],
+            [
+              367.0,
+              145.0
+            ],
+            [
+              367.0,
+              181.0
+            ],
+            [
+              349.0,
+              181.0
+            ]
+          ],
+          "confidence": 0.7247,
+          "section": "other"
+        },
+        {
+          "text": "8",
+          "box": [
+            [
+              393.0,
+              141.0
+            ],
+            [
+              409.0,
+              141.0
+            ],
+            [
+              409.0,
+              189.0
+            ],
+            [
+              393.0,
+              189.0
+            ]
+          ],
+          "confidence": 0.9828,
+          "section": "other"
+        },
+        {
+          "text": "1",
+          "box": [
+            [
+              442.0,
+              134.0
+            ],
+            [
+              468.0,
+              134.0
+            ],
+            [
+              468.0,
+              206.0
+            ],
+            [
+              442.0,
+              206.0
+            ]
+          ],
+          "confidence": 0.3002,
+          "section": "other"
+        },
+        {
+          "text": "1",
+          "box": [
+            [
+              390.0,
+              190.0
+            ],
+            [
+              414.0,
+              190.0
+            ],
+            [
+              414.0,
+              286.0
+            ],
+            [
+              390.0,
+              286.0
+            ]
+          ],
+          "confidence": 0.1029,
+          "section": "other"
+        },
+        {
+          "text": "2",
+          "box": [
+            [
+              391.0,
+              285.0
+            ],
+            [
+              411.0,
+              285.0
+            ],
+            [
+              411.0,
+              315.0
+            ],
+            [
+              391.0,
+              315.0
+            ]
+          ],
+          "confidence": 0.6813,
+          "section": "other"
+        }
+      ],
+      "sections": {
+        "ingredients": "",
+        "allergens": "",
+        "nutrition": "",
+        "other": "IH 8 8 I 2 5 2 8 1 1 2"
+      }
+    },
+    {
+      "id": "allergen_statement",
+      "image": "allergen_statement.png",
+      "status": "success",
+      "error": null,
+      "latency_ms": 3427.5,
+      "cer": 0.0217,
+      "wer": 0.1667,
+      "blocks": [
+        {
+          "text": "Nutrition Facts",
+          "box": [
+            [
+              26.0,
+              30.0
+            ],
+            [
+              206.0,
+              30.0
+            ],
+            [
+              206.0,
+              56.0
+            ],
+            [
+              26.0,
+              56.0
+            ]
+          ],
+          "confidence": 0.7709,
+          "section": "nutrition"
+        },
+        {
+          "text": "Ingredients: milk; cocoa, sugar",
+          "box": [
+            [
+              23.0,
+              84.0
+            ],
+            [
+              310.0,
+              84.0
+            ],
+            [
+              310.0,
+              112.0
+            ],
+            [
+              23.0,
+              112.0
+            ]
+          ],
+          "confidence": 0.6784,
+          "section": "ingredients"
+        },
+        {
+          "text": "Contains: milk",
+          "box": [
+            [
+              26.0,
+              128.0
+            ],
+            [
+              162.0,
+              128.0
+            ],
+            [
+              162.0,
+              152.0
+            ],
+            [
+              26.0,
+              152.0
+            ]
+          ],
+          "confidence": 0.9985,
+          "section": "allergens"
+        },
+        {
+          "text": "Calories 210 kcal",
+          "box": [
+            [
+              26.0,
+              170.0
+            ],
+            [
+              186.0,
+              170.0
+            ],
+            [
+              186.0,
+              194.0
+            ],
+            [
+              26.0,
+              194.0
+            ]
+          ],
+          "confidence": 0.8285,
+          "section": "nutrition"
+        },
+        {
+          "text": "Total sugars 18 g",
+          "box": [
+            [
+              26.0,
+              212.0
+            ],
+            [
+              188.0,
+              212.0
+            ],
+            [
+              188.0,
+              239.0
+            ],
+            [
+              26.0,
+              239.0
+            ]
+          ],
+          "confidence": 0.7672,
+          "section": "nutrition"
+        },
+        {
+          "text": "Sodium 60 mg",
+          "box": [
+            [
+              24.0,
+              254.0
+            ],
+            [
+              162.0,
+              254.0
+            ],
+            [
+              162.0,
+              282.0
+            ],
+            [
+              24.0,
+              282.0
+            ]
+          ],
+          "confidence": 0.9984,
+          "section": "nutrition"
+        }
+      ],
+      "sections": {
+        "ingredients": "Ingredients: milk; cocoa, sugar",
+        "allergens": "Contains: milk",
+        "nutrition": "Nutrition Facts Calories 210 kcal Total sugars 18 g Sodium 60 mg",
+        "other": ""
+      }
+    },
+    {
+      "id": "unreadable",
+      "image": "unreadable.png",
+      "status": "unreadable",
+      "error": "unreadable_label",
+      "latency_ms": 3474.67,
+      "cer": null,
+      "wer": null,
+      "blocks": [],
+      "sections": {}
+    },
+    {
+      "id": "glare_label",
+      "image": "glare_label.png",
+      "status": "success",
+      "error": null,
+      "latency_ms": 3575.08,
+      "cer": 0.0333,
+      "wer": 0.25,
+      "blocks": [
+        {
+          "text": "Nutrition Facts",
+          "box": [
+            [
+              26.0,
+              30.0
+            ],
+            [
+              206.0,
+              30.0
+            ],
+            [
+              206.0,
+              56.0
+            ],
+            [
+              26.0,
+              56.0
+            ]
+          ],
+          "confidence": 0.7709,
+          "section": "nutrition"
+        },
+        {
+          "text": "Ingredients: rice, sugar; salt",
+          "box": [
+            [
+              23.0,
+              84.0
+            ],
+            [
+              284.0,
+              84.0
+            ],
+            [
+              284.0,
+              112.0
+            ],
+            [
+              23.0,
+              112.0
+            ]
+          ],
+          "confidence": 0.5618,
+          "section": "ingredients"
+        },
+        {
+          "text": "Calories 110 kcal",
+          "box": [
+            [
+              26.0,
+              128.0
+            ],
+            [
+              186.0,
+              128.0
+            ],
+            [
+              186.0,
+              152.0
+            ],
+            [
+              26.0,
+              152.0
+            ]
+          ],
+          "confidence": 0.849,
+          "section": "nutrition"
+        },
+        {
+          "text": "Total sugars 3 g",
+          "box": [
+            [
+              26.0,
+              170.0
+            ],
+            [
+              176.0,
+              170.0
+            ],
+            [
+              176.0,
+              197.0
+            ],
+            [
+              26.0,
+              197.0
+            ]
+          ],
+          "confidence": 0.8836,
+          "section": "nutrition"
+        },
+        {
+          "text": "Sodium 100 mg",
+          "box": [
+            [
+              24.0,
+              212.0
+            ],
+            [
+              174.0,
+              212.0
+            ],
+            [
+              174.0,
+              240.0
+            ],
+            [
+              24.0,
+              240.0
+            ]
+          ],
+          "confidence": 0.971,
+          "section": "nutrition"
+        }
+      ],
+      "sections": {
+        "ingredients": "Ingredients: rice, sugar; salt",
+        "allergens": "",
+        "nutrition": "Nutrition Facts Calories 110 kcal Total sugars 3 g Sodium 100 mg",
+        "other": ""
+      }
+    },
+    {
+      "id": "small_print_label",
+      "image": "small_print_label.png",
+      "status": "success",
+      "error": null,
+      "latency_ms": 3348.59,
+      "cer": 0.0345,
+      "wer": 0.25,
+      "blocks": [
+        {
+          "text": "Nutrition Facts",
+          "box": [
+            [
+              29.0,
+              39.0
+            ],
+            [
+              147.0,
+              39.0
+            ],
+            [
+              147.0,
+              55.0
+            ],
+            [
+              29.0,
+              55.0
+            ]
+          ],
+          "confidence": 0.771,
+          "section": "nutrition"
+        },
+        {
+          "text": "Ingredients: barley; sesame il, sea salt",
+          "box": [
+            [
+              27.0,
+              75.0
+            ],
+            [
+              245.0,
+              75.0
+            ],
+            [
+              245.0,
+              91.0
+            ],
+            [
+              27.0,
+              91.0
+            ]
+          ],
+          "confidence": 0.5983,
+          "section": "ingredients"
+        },
+        {
+          "text": "Contains: sesame",
+          "box": [
+            [
+              27.0,
+              101.0
+            ],
+            [
+              125.0,
+              101.0
+            ],
+            [
+              125.0,
+              115.0
+            ],
+            [
+              27.0,
+              115.0
+            ]
+          ],
+          "confidence": 0.5419,
+          "section": "allergens"
+        },
+        {
+          "text": "Calories 150 kcal",
+          "box": [
+            [
+              27.0,
+              127.0
+            ],
+            [
+              123.0,
+              127.0
+            ],
+            [
+              123.0,
+              141.0
+            ],
+            [
+              27.0,
+              141.0
+            ]
+          ],
+          "confidence": 0.9569,
+          "section": "nutrition"
+        },
+        {
+          "text": "Total sugars 2 g",
+          "box": [
+            [
+              27.0,
+              153.0
+            ],
+            [
+              117.0,
+              153.0
+            ],
+            [
+              117.0,
+              169.0
+            ],
+            [
+              27.0,
+              169.0
+            ]
+          ],
+          "confidence": 0.5761,
+          "section": "nutrition"
+        },
+        {
+          "text": "Sodium 190 mg",
+          "box": [
+            [
+              27.0,
+              179.0
+            ],
+            [
+              115.0,
+              179.0
+            ],
+            [
+              115.0,
+              195.0
+            ],
+            [
+              27.0,
+              195.0
+            ]
+          ],
+          "confidence": 0.8107,
+          "section": "nutrition"
+        }
+      ],
+      "sections": {
+        "ingredients": "Ingredients: barley; sesame il, sea salt",
+        "allergens": "Contains: sesame",
+        "nutrition": "Nutrition Facts Calories 150 kcal Total sugars 2 g Sodium 190 mg",
+        "other": ""
+      }
+    },
+    {
+      "id": "exif_rotated",
+      "image": "exif_rotated.jpg",
+      "status": "unreadable",
+      "error": "unreadable_label",
+      "latency_ms": 74.23,
+      "cer": null,
+      "wer": null,
+      "blocks": [],
+      "sections": {}
+    }
+  ]
+}

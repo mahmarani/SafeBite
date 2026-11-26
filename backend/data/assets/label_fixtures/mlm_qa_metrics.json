@@ -1,0 +1,370 @@
+{
+  "timestamp": "2026-11-25 14:18:36",
+  "model_name": "/home/shahzeb-ali/Desktop/project/nlp/checkpoints/safebite_bert",
+  "is_dev_fallback": false,
+  "held_out": {
+    "samples_evaluated": 100,
+    "noise_rate": 0.15,
+    "noisy_metrics": {
+      "total_injected_errors": 401,
+      "successfully_corrected": 254,
+      "wrong_corrections": 51,
+      "precision_pct": 78.4,
+      "recall_pct": 63.34,
+      "f1_pct": 70.07,
+      "correction_accuracy_pct": 63.34,
+      "total_clean_words": 2818,
+      "broken_clean_words": 19,
+      "broken_words_rate_pct": 0.67,
+      "clean_word_retention_pct": 99.33
+    },
+    "clean_words_total": 2818,
+    "clean_false_corrections": 14,
+    "clean_false_correction_rate_pct": 0.5,
+    "clean_false_edits": [
+      {
+        "sample_index": 3,
+        "original": "glucond",
+        "corrected": "glucono",
+        "score": 0.7071,
+        "category": "food_or_label_term"
+      },
+      {
+        "sample_index": 14,
+        "original": "SHORTENINGS",
+        "corrected": "shortening",
+        "score": 0.769,
+        "category": "food_or_label_term"
+      },
+      {
+        "sample_index": 14,
+        "original": "CANDIED",
+        "corrected": "candies",
+        "score": 0.7071,
+        "category": "food_or_label_term"
+      },
+      {
+        "sample_index": 14,
+        "original": "FRUC",
+        "corrected": "fru",
+        "score": 0.7071,
+        "category": "food_or_label_term"
+      },
+      {
+        "sample_index": 18,
+        "original": "POTAT",
+        "corrected": "potato",
+        "score": 0.7429,
+        "category": "food_or_label_term"
+      },
+      {
+        "sample_index": 27,
+        "original": "CARBONAT",
+        "corrected": "carbonate",
+        "score": 0.7639,
+        "category": "food_or_label_term"
+      },
+      {
+        "sample_index": 30,
+        "original": "ISOMALTO",
+        "corrected": "isomalt",
+        "score": 0.7567,
+        "category": "food_or_label_term"
+      },
+      {
+        "sample_index": 30,
+        "original": "MINE",
+        "corrected": "maine",
+        "score": 0.7278,
+        "category": "food_or_label_term"
+      },
+      {
+        "sample_index": 50,
+        "original": "CARA",
+        "corrected": "caram",
+        "score": 0.7278,
+        "category": "food_or_label_term"
+      },
+      {
+        "sample_index": 58,
+        "original": "LECITHI",
+        "corrected": "lecithin",
+        "score": 0.7567,
+        "category": "food_or_label_term"
+      },
+      {
+        "sample_index": 61,
+        "original": "crumbled",
+        "corrected": "crumble",
+        "score": 0.7567,
+        "category": "food_or_label_term"
+      },
+      {
+        "sample_index": 65,
+        "original": "LECI",
+        "corrected": "lecit",
+        "score": 0.7278,
+        "category": "food_or_label_term"
+      },
+      {
+        "sample_index": 72,
+        "original": "CONCETRATE",
+        "corrected": "concentrate",
+        "score": 0.769,
+        "category": "food_or_label_term"
+      },
+      {
+        "sample_index": 77,
+        "original": "EMULSIFIE",
+        "corrected": "emulsified",
+        "score": 0.7658,
+        "category": "food_or_label_term"
+      }
+    ],
+    "held_out_wer_before": 0.1382,
+    "held_out_wer_after": 0.0579,
+    "held_out_cer_before": 0.0215,
+    "held_out_cer_after": 0.0102,
+    "sample_release_audit": [
+      {
+        "sample_index": 0,
+        "original": "PNRE",
+        "corrected": "pre",
+        "expected": "pure",
+        "score": 0.7071,
+        "outcome": "wrong_fix",
+        "flag_category": "food_or_label_term"
+      },
+      {
+        "sample_index": 0,
+        "original": "HJBISCUS",
+        "corrected": "hibiscus",
+        "expected": "hibiscus",
+        "score": 0.7188,
+        "outcome": "true_fix",
+        "flag_category": "food_or_label_term"
+      },
+      {
+        "sample_index": 2,
+        "original": "PVRE",
+        "corrected": "pre",
+        "expected": "pure",
+        "score": 0.7071,
+        "outcome": "wrong_fix",
+        "flag_category": "food_or_label_term"
+      },
+      {
+        "sample_index": 2,
+        "original": "RASPBERRIAS",
+        "corrected": "raspberries",
+        "expected": "raspberries",
+        "score": 0.7409,
+        "outcome": "true_fix",
+        "flag_category": "food_or_label_term"
+      },
+      {
+        "sample_index": 3,
+        "original": "ztarch",
+        "corrected": "starch",
+        "expected": "starch",
+        "score": 0.6917,
+        "outcome": "true_fix",
+        "flag_category": "food_or_label_term"
+      },
+      {
+        "sample_index": 3,
+        "original": "bjcarbonate",
+        "corrected": "bicarbonate",
+        "expected": "bicarbonate",
+        "score": 0.7409,
+        "outcome": "true_fix",
+        "flag_category": "food_or_label_term"
+      },
+      {
+        "sample_index": 3,
+        "original": "glucond",
+        "corrected": "glucono",
+        "expected": "glucond",
+        "score": 0.7071,
+        "outcome": "false_edit",
+        "flag_category": "food_or_label_term"
+      },
+      {
+        "sample_index": 3,
+        "original": "catcium",
+        "corrected": "calcium",
+        "expected": "calcium",
+        "score": 0.7155,
+        "outcome": "true_fix",
+        "flag_category": "food_or_label_term"
+      },
+      {
+        "sample_index": 4,
+        "original": "PAPR1KA",
+        "corrected": "paprika",
+        "expected": "paprika",
+        "score": 0.735,
+        "outcome": "true_fix",
+        "flag_category": "food_or_label_term"
+      },
+      {
+        "sample_index": 4,
+        "original": "EVAPORTED",
+        "corrected": "evaporated",
+        "expected": "evaporated",
+        "score": 0.7658,
+        "outcome": "true_fix",
+        "flag_category": "food_or_label_term"
+      },
+      {
+        "sample_index": 6,
+        "original": "monosodibum",
+        "corrected": "monosodium",
+        "expected": "monosodium",
+        "score": 0.769,
+        "outcome": "true_fix",
+        "flag_category": "food_or_label_term"
+      },
+      {
+        "sample_index": 9,
+        "original": "GLVTAMATE",
+        "corrected": "glutamate",
+        "expected": "glutamate",
+        "score": 0.7278,
+        "outcome": "true_fix",
+        "flag_category": "food_or_label_term"
+      },
+      {
+        "sample_index": 13,
+        "original": "ugar",
+        "corrected": "sugar",
+        "expected": "ugar",
+        "score": 0.7279,
+        "outcome": "false_edit",
+        "flag_category": "food_or_label_term"
+      },
+      {
+        "sample_index": 14,
+        "original": "SHORTENINGS",
+        "corrected": "shortening",
+        "expected": "SHORTENINGS",
+        "score": 0.769,
+        "outcome": "false_edit",
+        "flag_category": "food_or_label_term"
+      },
+      {
+        "sample_index": 14,
+        "original": "COCOmNUT",
+        "corrected": "coconut",
+        "expected": "coconut",
+        "score": 0.7604,
+        "outcome": "true_fix",
+        "flag_category": "food_or_label_term"
+      },
+      {
+        "sample_index": 14,
+        "original": "CANDIED",
+        "corrected": "candies",
+        "expected": "CANDIED",
+        "score": 0.7071,
+        "outcome": "false_edit",
+        "flag_category": "food_or_label_term"
+      },
+      {
+        "sample_index": 14,
+        "original": "GUCOSE",
+        "corrected": "glucose",
+        "expected": "glucose",
+        "score": 0.75,
+        "outcome": "true_fix",
+        "flag_category": "food_or_label_term"
+      },
+      {
+        "sample_index": 14,
+        "original": "FRUC",
+        "corrected": "fru",
+        "expected": "FRUC",
+        "score": 0.7071,
+        "outcome": "false_edit",
+        "flag_category": "food_or_label_term"
+      }
+    ]
+  },
+  "fixtures": {
+    "fixtures": [
+      {
+        "id": "clear_label",
+        "status": "success",
+        "wer_ocr": 0.25,
+        "wer_corrected": 0.25,
+        "cer_ocr": 0.0333,
+        "cer_corrected": 0.0333,
+        "corrections": []
+      },
+      {
+        "id": "blurry_label",
+        "status": "success",
+        "wer_ocr": 1.0,
+        "wer_corrected": 1.0,
+        "cer_ocr": 1.0,
+        "cer_corrected": 1.0,
+        "corrections": [
+          {
+            "section": "nutrition",
+            "original": "Jotal",
+            "corrected": "Total",
+            "score": 0.6701,
+            "flag_category": "food_or_label_term"
+          },
+          {
+            "section": "nutrition",
+            "original": "Sodum",
+            "corrected": "Sodium",
+            "score": 0.741,
+            "flag_category": "food_or_label_term"
+          }
+        ]
+      },
+      {
+        "id": "rotated_label",
+        "status": "success",
+        "wer_ocr": 1.0,
+        "wer_corrected": 1.0,
+        "cer_ocr": 1.0,
+        "cer_corrected": 1.0,
+        "corrections": []
+      },
+      {
+        "id": "allergen_statement",
+        "status": "success",
+        "wer_ocr": 0.1667,
+        "wer_corrected": 0.1667,
+        "cer_ocr": 0.0217,
+        "cer_corrected": 0.0217,
+        "corrections": []
+      },
+      {
+        "id": "glare_label",
+        "status": "success",
+        "wer_ocr": 0.25,
+        "wer_corrected": 0.25,
+        "cer_ocr": 0.0333,
+        "cer_corrected": 0.0333,
+        "corrections": []
+      },
+      {
+        "id": "small_print_label",
+        "status": "success",
+        "wer_ocr": 0.25,
+        "wer_corrected": 0.25,
+        "cer_ocr": 0.0345,
+        "cer_corrected": 0.0345,
+        "corrections": []
+      }
+    ],
+    "mean_wer_ocr_all": 0.4861,
+    "mean_wer_corrected_all": 0.4861,
+    "mean_wer_ocr_clean": 0.2292,
+    "mean_wer_corrected_clean": 0.2292
+  }
+}

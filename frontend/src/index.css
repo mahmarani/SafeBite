@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Manrope", system-ui, -apple-system, sans-serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-data: "Inter", system-ui, -apple-system, sans-serif;
+
+  --color-canvas: #FAF7F2;
+  --color-surface: #FFFFFF;
+  --color-inset: #F3EDE2;
+  --color-inset-hover: #EAE1D2;
+  --color-border: #E8E1D5;
+
+  --color-primary: #1D7A46;
+  --color-primary-dark: #155D35;
+  --color-warm: #D97706;
+
+  --color-ink: #1F1A17;
+  --color-muted: #6A6057;
+
+  --color-grade-a: #1D7A46;
+  --color-grade-b: #5A9E2F;
+  --color-grade-c: #D99B16;
+  --color-grade-d: #E06520;
+  --color-grade-e: #D43832;
+
+  --color-traffic-low: #1F9D55;
+  --color-traffic-mod: #E59417;
+  --color-traffic-high: #DC3B35;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .tabular-nums, .font-data {
+    font-family: var(--font-data);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.card-surface {
+  background-color: #FFFFFF;
+  border: 1px solid #E8E1D5;
+  border-radius: 14px;
+  box-shadow: 0 1px 2px 0 rgba(31, 26, 23, 0.04), 0 4px 12px -4px rgba(31, 26, 23, 0.04);
+}
+
+.overlay-surface {
+  background-color: #FFFFFF;
+  border: 1px solid #E8E1D5;
+  border-radius: 14px;
+  box-shadow: 0 12px 28px -6px rgba(31, 26, 23, 0.12), 0 4px 10px -2px rgba(31, 26, 23, 0.06);
+}
+
+.inset-surface {
+  background-color: #F6F1E8;
+  border-radius: 10px;
+}
+
+.input-field {
+  background-color: #FFFFFF;
+  border: 1px solid #DED5C6;
+  border-radius: 9px;
+  color: #1F1A17;
+  transition: border-color 150ms ease, box-shadow 150ms ease, background-color 150ms ease;
+}
+
+.input-field::placeholder {
+  color: #8A7F74;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #1D7A46;
+  box-shadow: 0 0 0 3px rgba(29, 122, 70, 0.16);
+}
+
+.input-field-error {
+  border-color: #D43832;
+}
+
+.input-field-error:focus {
+  border-color: #D43832;
+  box-shadow: 0 0 0 3px rgba(212, 56, 50, 0.18);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
